@@ -11,7 +11,7 @@ String cadena, cadena2;
 System.out.println("Escriba una cadena");
 cadena=teclado.nextLine();
 
-cadena2=cadena.replace(' ', '\n');
+cadena2=cadena.replace('h', 'p');
 System.out.println(cadena2);
 
 teclado.close();
